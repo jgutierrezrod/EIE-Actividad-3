@@ -54,7 +54,7 @@ En esta primera imagen, se recogen, tal y como se hizo en la actividad 1, los va
 
 También se puede apreciar en la imagen el sistema utilizado para ver por el LCD los datos recogidos por los distintos sensores según se va apretando un botón. Para esto, utilizamos las funciones explicadas en el apartado superior que imprimen por pantalla la información recogida por los distintos sensores y que ambiar la información que se muestra por el LCD cuando se pulse el botón rojo.
 
-![image](https://github.com/user-attachments/assets/3a38b76b-966b-43b0-92f9-028606a18659)
+![image](https://github.com/user-attachments/assets/cd932d1a-e31e-4ae3-a042-c79e2cd53f7c)
 
 Finalmente, en esta última línea de la función loop() se puede ver la llamada a la función que activa el servomotor en función de la temperatura recogida por el sensor DHT22.
 
