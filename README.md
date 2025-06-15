@@ -1,4 +1,4 @@
-# Actividad 2 - Sistema de control y actuación en función del clima
+# Actividad 3 - Sistema de medición, control, actuación y presentación del clima, utilizando técnicas de comunicaciones, avanzadas y/o inteligentes
 - **Asignatura**: Electrónica e Instrumentación Básicas
 - ***Alumnos***:
   - Javier Gutiérrez Rodríguez
