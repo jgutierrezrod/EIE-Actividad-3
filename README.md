@@ -42,12 +42,11 @@ Una vez realizados estos pasos previos al funcionamiento final del sistema, se p
 
   ![image](https://github.com/user-attachments/assets/715d565b-02f8-4a1b-894c-47527dfff736)
 
-- Una función que cambia la posición de un servomotor según la temperatura registrada por el sensor DHT22:
+- Una función que cambia la posición de un servomotor según la temperatura registrada por el sensor DHT22 mediante algoritmo de supervisión inteligente:
 
-  ![image](https://github.com/user-attachments/assets/4a3d87d5-6241-4885-a8f7-6295557be9f4)
+  ![image](https://github.com/user-attachments/assets/ba43ddf1-c6cb-4de2-8596-e928bc1003b7)
 
 A continuación, se ha configurado en la función loop() toda la lógica del sistema apoyándonos en todo lo mencionado anteriormente:
-
 
 ![image](https://github.com/user-attachments/assets/a4a2ae61-7ce7-4bd0-97a0-d65f6030a7b3)
 
