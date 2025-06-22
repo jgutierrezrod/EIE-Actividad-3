@@ -28,7 +28,7 @@ A continuación, en la función setup() hemos inicializado el sistema, dando por
 
 Una vez realizados estos pasos previos al funcionamiento final del sistema, se pasa a crear funciones que se utilizarán dentro de la función loop(). Las funciones son:
 
-- Una función de autodiagnóstico para evaluar las condiciones del ambiente.
+- Una función de autodiagnóstico para evaluar las condiciones del ambiente reduciendo errores y afectaciones en el sistema.
   
   ![image](https://github.com/user-attachments/assets/49bcc467-33a4-47e9-835d-75c1445283f2)
 
