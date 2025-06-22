@@ -12,25 +12,27 @@
  ## Diseño del sistema
 
  ### Hardware
- #### Diagrama de conexiones
- ![Diagrama del circuito](Esquemático.PNG)
+ #### Equipamiento de pruebas
+![image](https://github.com/user-attachments/assets/b6e0f493-0a45-41ba-b8c1-8ceb5ffbd2d6)
 
- #### Bill of Materials
- [📄 Componentes.csv](BOM.csv)
  ### Software
 
 El software realizado durante esta actividad tiene varias partes. Se ha partido de inicializar todas las librerías, pines y crear objetos utilizando la placa base Arduino Uno. 
 
 ![image](https://github.com/user-attachments/assets/5951f1cc-c17e-435b-a7ee-c005dfce4604)
 
-A continuación, en la función setup() hemos inicializado el sistema, dando por el LCD un mensaje introductorio "MONITORIZACIÓN CLIMA". Además, se han inicializado los pines de los LEDs, el sensor DHT, el fotorresistor, el botón y el servomotor.
+A continuación, en la función setup() hemos inicializado el sistema, dando por el LCD un mensaje introductorio "MONITORIZACIÓN CLIMA". Además, se han inicializado los pines de los LEDs, el sensor DHT, el fotorresistor, el botón, el IR Receiver, el IR Remote y el servomotor.
 
 
 ![image](https://github.com/user-attachments/assets/2a8b781c-f9f8-4416-8682-05ef09d776a9)
 
 Una vez realizados estos pasos previos al funcionamiento final del sistema, se pasa a crear funciones que se utilizarán dentro de la función loop(). Las funciones son:
 
-- Una función que calcule la cantidad de LEDs a encender en función del valor registrado por el LDR.
+- Una función de autodiagnóstico para evaluar las condiciones del ambiente.
+  
+  ![image](https://github.com/user-attachments/assets/49bcc467-33a4-47e9-835d-75c1445283f2)
+
+-  Una función que calcule la cantidad de LEDs a encender en función del valor registrado por el LDR.
 
   ![image](https://github.com/user-attachments/assets/d00dc5a4-4599-471c-b65f-7e3742b59692)
 
@@ -45,6 +47,10 @@ Una vez realizados estos pasos previos al funcionamiento final del sistema, se p
 - Una función que cambia la posición de un servomotor según la temperatura registrada por el sensor DHT22 mediante algoritmo de supervisión inteligente:
 
   ![image](https://github.com/user-attachments/assets/ba43ddf1-c6cb-4de2-8596-e928bc1003b7)
+  
+- Una función que controla remotamente la estación meteorológica:
+  
+  ![image](https://github.com/user-attachments/assets/8fa5a288-283e-496d-92e6-01eeb2119c86)
 
 A continuación, se ha configurado en la función loop() toda la lógica del sistema apoyándonos en todo lo mencionado anteriormente:
 
